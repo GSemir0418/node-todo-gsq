@@ -1,0 +1,23 @@
+{
+  "name": "node-todo-gsq",
+  "version": "0.0.5",
+  "main": "index.js",
+  "author": "gsq",
+  "license": "MIT",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
